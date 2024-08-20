@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. Emily Thompson",
+      "subject": "Introduction to Psychology",
+      "stars": 4,
+      "review": "Engaging lectures with lots of real-world examples. Exams are fair but study the textbook thoroughly."
+    },
+    {
+      "professor": "Dr. Michael Richards",
+      "subject": "Advanced Calculus",
+      "stars": 3,
+      "review": "The material is challenging, and the professor sometimes moves too quickly. Office hours are helpful."
+    },
+    {
+      "professor": "Dr. Sarah Lee",
+      "subject": "Modern Art History",
+      "stars": 5,
+      "review": "Passionate about the subject and encourages class discussions. The assignments are creative and enjoyable."
+    },
+    {
+      "professor": "Dr. John Anderson",
+      "subject": "Organic Chemistry",
+      "stars": 2,
+      "review": "Difficult to follow lectures, and the exams are tough. You really need to put in extra time outside of class."
+    },
+    {
+      "professor": "Dr. Jessica Miller",
+      "subject": "Introduction to Sociology",
+      "stars": 4,
+      "review": "Interesting course with lots of group work. The professor is approachable and cares about students' success."
+    },
+    {
+      "professor": "Dr. David Johnson",
+      "subject": "Quantum Physics",
+      "stars": 5,
+      "review": "Brilliant professor with a deep understanding of the material. The lectures are intense but highly rewarding."
+    },
+    {
+      "professor": "Dr. Linda Garcia",
+      "subject": "American Literature",
+      "stars": 3,
+      "review": "Lectures are informative but a bit dry. The reading list is long, but the professor offers good insights."
+    },
+    {
+      "professor": "Dr. Robert Wilson",
+      "subject": "Economics 101",
+      "stars": 4,
+      "review": "Clear explanations and helpful real-world applications. The homework assignments are tough but manageable."
+    },
+    {
+      "professor": "Dr. Karen Martinez",
+      "subject": "World History",
+      "stars": 5,
+      "review": "Very knowledgeable and enthusiastic. The class is well-organized, and the exams are fair."
+    },
+    {
+      "professor": "Dr. James Brown",
+      "subject": "Linear Algebra",
+      "stars": 2,
+      "review": "The professor is knowledgeable but not very engaging. The material is difficult to grasp without additional study."
+    },
+    {
+      "professor": "Dr. Patricia Davis",
+      "subject": "Introduction to Philosophy",
+      "stars": 5,
+      "review": "Inspiring professor with thought-provoking lectures. Encourages critical thinking and class participation."
+    },
+    {
+      "professor": "Dr. Charles Moore",
+      "subject": "Environmental Science",
+      "stars": 4,
+      "review": "Interesting and relevant course material. The professor is passionate about environmental issues."
+    },
+    {
+      "professor": "Dr. Susan Taylor",
+      "subject": "Classical Literature",
+      "stars": 3,
+      "review": "The course is reading-heavy, and the professor's lectures can be dry. However, the material is fascinating."
+    },
+    {
+      "professor": "Dr. George White",
+      "subject": "Introduction to Computer Science",
+      "stars": 4,
+      "review": "Great introduction to programming. The professor is patient and explains concepts clearly."
+    },
+    {
+      "professor": "Dr. Jennifer Harris",
+      "subject": "Biochemistry",
+      "stars": 3,
+      "review": "Challenging course with lots of memorization. The professor is helpful during office hours."
+    },
+    {
+      "professor": "Dr. Thomas Clark",
+      "subject": "European History",
+      "stars": 5,
+      "review": "Passionate about the subject and provides detailed feedback on assignments. The lectures are engaging."
+    },
+    {
+      "professor": "Dr. Barbara King",
+      "subject": "Statistics",
+      "stars": 4,
+      "review": "The professor makes a difficult subject more understandable. The homework is tough but helps solidify concepts."
+    },
+    {
+      "professor": "Dr. Steven Martinez",
+      "subject": "Artificial Intelligence",
+      "stars": 5,
+      "review": "Cutting-edge material and a forward-thinking professor. The projects are challenging but incredibly rewarding."
+    },
+    {
+      "professor": "Dr. Elizabeth Walker",
+      "subject": "Creative Writing",
+      "stars": 4,
+      "review": "Encourages creativity and provides constructive feedback. The class atmosphere is supportive."
+    },
+    {
+      "professor": "Dr. Anthony Robinson",
+      "subject": "Microeconomics",
+      "stars": 3,
+      "review": "The professor is knowledgeable, but the lectures can be a bit dry. The exams are difficult but fair."
+    }
+  ]
+}
