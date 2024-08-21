@@ -5,7 +5,7 @@ import { input } from "@nextui-org/theme";
 import { match } from "assert";
 import { start } from "repl";
 
-const systemPrompt = 
+const systemPrompt =
 `
 You are a helpful AI assistant designed to recommend professors to students based on their queries. Your primary function is to analyze student questions and provide the top 3 most relevant professor recommendations using a RAG (Retrieval-Augmented Generation) system.
 
@@ -45,31 +45,31 @@ export async function POST(req) {
                 embedding_format: 'float',
         })
 
-        const result = await index.query({
+        const results = await index.query({
             topK: 3,
             includeMetadata: true,
             vector: embedding.data[0].embedding
         })
 
         let resultString = '\n\nReturned results from vector db (done automatically):'
-        resultString.matches.forEach((match) => {
+        results.matches.forEach((match) => {
             resultString += `\n
             Professor: ${match.id}
             Review: ${match.metadata.stars}
             Subject: ${match.metadata.subject}
-            Stars ${match.metada.stars}
+            Stars ${match.metadata.stars}
             \n\n
             `
         });
 
         const lastMessage = data[data.length - 1]
-        const lanstMessagaeContent = lastMessage.content + resultString
+        const lastMessageContent = lastMessage.content + resultString
         const lastDataWithoutLastMessage = data.slice(0, data.length - 1)
         const completion = await openai.chat.completions.create({
             messages: [
                 {role: 'system', content: systemPrompt},
                 ...lastDataWithoutLastMessage,
-                {role: 'user', content: lanstMessagaeContent},
+                {role: 'user', content: lastMessageContent},
             ],
             model: 'gpt-4o-mini',
             stream: true,
